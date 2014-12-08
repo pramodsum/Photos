@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="ninja.png">
+  <title>Photos.Pramod.Ninja</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
+  </script>
+  <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.0.min.js">
+    <\/script>')</script>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type='text/javascript' src='/js/plugins.js'>
+    </script>
+    <script type='text/javascript' src='/js/main.js'>
+    </script>
+  </head>
+
+<body class="home page page-id-4 page-template-default split">
+  <!--[if lt IE 7]>
+<div class="alert">Your browser is <em>ancient!</em>
+<a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</div>
+<![endif]-->
+  <header class="left">
+    <a class="brand black" title="Photos.Pramod.Ninja" href="http://photos.pramod.ninja/">
+      <img class="img-responsive img-circle logo" src="https://avatars1.githubusercontent.com/u/3299001?v=3&s=460" />
+      <h1>Sumedha Pramod</h1>
+    </a>
+    <nav class="site-nav" id="navigation">
+      <ul class="main-nav text-center">
+        <li class="browse">
+          <a class="main-nav-item" href="http://twitter.com/pramodsum">
+            <strong>Twitter</strong>
+          </a>
+        </li>
+        <li class="browse ">
+          <a class="main-nav-item" href="http://instagram.com/pramodsum">
+            <strong>Instragram</strong>
+          </a>
+        </li>
+        <li class="browse ">
+          <a class="main-nav-item" href="https://www.flickr.com/photos/pramodsum">
+            <strong>Flickr Gallery</strong>
+          </a>
+        </li>
+        <li class="browse ">
+          <a class="main-nav-item" href="https://www.facebook.com/sumedha.pramod">
+            <strong>Facebook</strong>
+          </a>
+        </li>
+        <li class="browse ">
+          <a class="main-nav-item" href="http://github.com/pramodsum">
+            <strong>Github</strong>
+          </a>
+        </li>
+        <li class="browse ">
+          <a class="main-nav-item" href="mailto:me@sumninjacode.io">
+            <strong>Email me!</strong>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="right">
+    <div class="grid home-grid" id="griddo">
+
+      <div class="grid-cell double-wide triple-tall"> 
+					<a class="item photo-item"> 
+					 <img src="/img/sf.JPG" />
+					 <span class="title">
+            <p>
+								<strong class="highlighted black">Golden Gate Bridge</strong>
+            </p>
+            <p>
+								<span class="highlighted black">San Francisco, CA</span>
+            </p>
+					 </span>
+				 </a>
+      </div>  
+
+      <div class="grid-cell single-wide double-tall"> 
+				 <a class="item photo-item">													
+					 <img src="/img/davis.JPG" />
+					 <span class="title">
+            <p>
+								<strong class="highlighted black">UC Davis</strong>
+            </p>
+            <p>
+								<span class="highlighted black">Davis, CA</span>
+            </p> 
+					 </span>
+				 </a>
+      </div>  
+
+      <div class="grid-cell single-wide single-tall"> 
+				<a class="item photo-item">						            
+					<img src="/img/amtrak.jpg" />
+					<span class="title">
+					 <p>
+            <strong class="highlighted black">Amtrak from Davis to San Francisco</strong>
+					 </p>
+					 <p>
+            <span class="highlighted black">Northern California</span>
+					 </p> 
+				 </span>
+      </a>
+      </div>
+
+      <div class="grid-cell single-wide double-tall"> 
+				<a class="item photo-item">						            
+					<img src="/img/sangria.JPG" />
+					<span class="title">
+					 <p>
+            <strong class="highlighted black">Dominick's</strong>
+					 </p>
+					 <p>
+            <span class="highlighted black">Ann Arbor, MI</span>
+					 </p> 
+				 </span>
+      </a>
+      </div>
+
+      <div class="grid-cell single-wide single-tall"> 
+				<a class="item photo-item">						            
+					<img src="/img/sf2.png" />
+					<span class="title">
+					 <p>
+            <strong class="highlighted black">Golden Gate Bridge</strong>
+					 </p>
+					 <p>
+            <span class="highlighted black">San Francisco, CA</span>
+					 </p> 
+				 </span>
+				 </a>
+      </div> 
+
+    </div>
+<!-- End Grid -->
+
+    <footer id="footer">
+      <nav class="site-nav">
+				 <ul class="main-nav clearfix">
+				 </ul>
+      </nav>
+      <div id="bottom">
+				 <div class="bottom-contents clearfix">
+					 <div class="copyright text-center">
+            <p>
+								Made with
+								<span style="color: red;">&hearts;</span>
+								<span>by</span>
+								<a href="http://sumninjacode.io"> Sumedha Pramod</a>
+								<span>&#124;</span>
+								<a href='mailto:issues@uppukhara.com'>Issues</a>
+            </p>      
+					 </div>
+				 </div>
+      </div>
+    </footer>
+
+  </div>
+<!-- End Right -->
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      var $container = $('#griddo');
+      var iWW = $(window).width();
+      var iDivisor = 3;
+      if (iWW <= 768) { iDivisor = 2; }
+      else if (iWW <= 1024) { iDivisor = 3; }
+      else if (iWW <= 1440) { iDivisor = 4; }
+      else { iDivisor = 5; }
+      var colWidth = Math.floor( $container.width() / iDivisor );
+      $('.single-wide').width(colWidth);
+      $('.double-wide').width(colWidth * 2);
+      if( iDivisor == 2 ) {
+				 $('.double-wide').width(colWidth * 2);
+				 $('.four-wide').width(colWidth * 2);
+      } else if( iDivisor == 3 ) {
+				 $('.double-wide').width(colWidth * 3);
+				 $('.four-wide').width(colWidth * 3);
+      } else {
+				 $('.double-wide').width(colWidth * 3);
+				 $('.four-wide').width(colWidth * 4);
+      }
+					 // console.log(colWidth);
+					 
+					 // initialize Isotope
+					 $container.isotope({
+								// options...
+								resizable: false, // disable normal resizing
+								// set columnWidth to a percentage of container width
+								masonry: { columnWidth: colWidth }
+            });
+					 
+					 // update columnWidth on window resize
+					 $(window).smartresize(function(){
+            var iWW = $(window).width();
+            var iDivisor = 3;
+            if (iWW <= 768) { iDivisor = 2; }
+            else if (iWW <= 1024) { iDivisor = 3; }
+            else if (iWW <= 1440) { iDivisor = 4; }
+            else { iDivisor = 5; }
+            var colWidth = Math.floor( $container.width() / iDivisor );
+            $('.single-wide').width(colWidth);
+            $('.double-wide').width(colWidth * 2);
+            if( iDivisor == 2 ) {
+								$('.double-wide').width(colWidth * 2);
+								$('.four-wide').width(colWidth * 2);
+            } else if( iDivisor == 3 ) {
+								$('.double-wide').width(colWidth * 3);
+								$('.four-wide').width(colWidth * 3);
+            } else {
+								$('.double-wide').width(colWidth * 3);
+								$('.four-wide').width(colWidth * 4);
+            }
+								// console.log(colWidth);
+								$container.isotope({
+											// update columnWidth to a percentage of container width
+											masonry: { columnWidth: colWidth }
+									});
+            });
+  });
+  </script>
+</body>
+</html>
