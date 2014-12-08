@@ -17,7 +17,7 @@ html {
 
 body {
   background: white;
-  font-family: Arvo;
+  /*font-family: Arvo;*/
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
@@ -1699,7 +1699,7 @@ script {
  *    user zoom.
  */
 html {
-  font-family: sans-serif;
+  /*font-family: sans-serif;*/
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -1797,7 +1797,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, serif;
+  /*font-family: monospace, serif;*/
   font-size: 1em;
 }
 
@@ -1900,7 +1900,7 @@ button,
 input,
 select,
 textarea {
-  font-family: inherit;
+  /*font-family: inherit;*/
   /* 1 */
   font-size: 100%;
   /* 2 */
@@ -2365,7 +2365,7 @@ textarea {
   line-height: 20px;
   background: #fafafa;
   color: #666;
-  font-family: Arvo;
+  /*font-family: Arvo;*/
 }
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -2388,7 +2388,7 @@ textarea {
 }
 
 .button {
-  font-family: Arvo;
+  /*font-family: Arvo;*/
   font-size: 125%;
   line-height: 1.25em;
   display: inline-block;
@@ -4228,7 +4228,7 @@ body.inductee {
   top: 5px;
   font-size: 10px;
   line-height: 22px;
-  font-family: arial, sans-serif;
+  /*font-family: arial, sans-serif;*/
   font-weight: bold;
   color: #231f20;
 }
