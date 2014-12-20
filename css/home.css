@@ -1,0 +1,72 @@
+
+
+/* Home Page  */
+.home .class-hero {
+  background: url(../img/inductees/2013-homepage-hero.jpg) no-repeat #a7bdce;
+  background-size: cover;
+  padding-top: 60px;
+  text-align: center;
+}
+@media (max-width: 480px) {
+  .home .class-hero {
+    padding-top: 15px;
+  }
+}
+.home .class-hero h1 {
+  font-size: 3.7em;
+  font-weight: 700;
+  font-style: italic;
+}
+@media (max-width: 480px) {
+  .home .class-hero h1 {
+    font-size: 1.5em;
+    line-height: 1em;
+  }
+}
+.home .class-hero h2 {
+  font-size: 3.2em;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.45em;
+  margin: 0.5em 0;
+}
+@media (max-width: 480px) {
+  .home .class-hero h2 {
+    font-size: 1.65em;
+    margin: 1em 0;
+  }
+}
+.home .class-hero .button.gray {
+  background-color: #80919e;
+  font-size: 2.2em;
+  padding: 1.25em 1.5em;
+}
+@media (max-width: 480px) {
+  .home .class-hero .button.gray {
+    font-size: 1.5em;
+    padding: 1em;
+    margin-top: 10px;
+  }
+}
+.home .class-hero .button.gray:hover {
+  background-color: #8999a5;
+}
+.home .class-hero .button.gray:active {
+  background-color: #778997;
+}
+.home .view-class {
+  background: url(../img/inductees/2014-homepage-class.jpg) no-repeat scroll center center #850203;
+  background-size: 100%;
+  text-align: center;
+  font-size: 1.85em;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.45em;
+  -webkit-transition-property: all !important;
+  -moz-transition-property: all !important;
+  -o-transition-property: all !important;
+  transition-property: all !important;
+}
+.home .view-class:hover {
+  background-size: 120%;
+}
