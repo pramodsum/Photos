@@ -22,7 +22,7 @@
       <ul class="main-nav text-center">
         <li class="browse">
           <a class="main-nav-item" href="http://twitter.com/pramodsum">
-            <strong>Twitter</strong>
+            <strong><i class="icon-twitter"></i></strong>
           </a>
         </li>
         <li class="browse ">
@@ -86,17 +86,17 @@
       </div> 
 
       <div class="grid-cell double-wide triple-tall"> 
-					<a class="item photo-item"> 
-					 <img src="https://farm9.staticflickr.com/8662/16034957766_956c5b80b0_b.jpg" />
-					 <span class="title">
+          <a class="item photo-item"> 
+           <img src="https://farm9.staticflickr.com/8662/16034957766_956c5b80b0_b.jpg" />
+           <span class="title">
             <p>
-								<strong class="highlighted black">Golden Gate Bridge</strong>
+                <strong class="highlighted black">Golden Gate Bridge</strong>
             </p>
             <p>
-								<span class="highlighted black">San Francisco, CA</span>
+                <span class="highlighted black">San Francisco, CA</span>
             </p>
-					 </span>
-				 </a>
+           </span>
+         </a>
       </div>  
 
       <div class="grid-cell single-wide single-tall"> 
@@ -170,16 +170,16 @@
       </div>   
 
       <div class="grid-cell single-wide single-tall"> 
-				<a class="item photo-item">						            
-					<img src="https://farm8.staticflickr.com/7579/16034957466_8957fe2954_b.jpg" />
-					<span class="title">
-					 <p>
+        <a class="item photo-item">                       
+          <img src="https://farm8.staticflickr.com/7579/16034957466_8957fe2954_b.jpg" />
+          <span class="title">
+           <p>
             <strong class="highlighted black">Amtrak from Davis to San Francisco</strong>
-					 </p>
-					 <p>
+           </p>
+           <p>
             <span class="highlighted black">Northern California</span>
-					 </p> 
-				 </span>
+           </p> 
+         </span>
       </a>
       </div>
 
@@ -258,22 +258,22 @@
 
     <footer id="footer">
       <nav class="site-nav">
-				 <ul class="main-nav clearfix">
-				 </ul>
+         <ul class="main-nav clearfix">
+         </ul>
       </nav>
       <div id="bottom">
-				 <div class="bottom-contents clearfix">
-					 <div class="copyright text-center">
+         <div class="bottom-contents clearfix">
+           <div class="copyright text-center">
             <p>
-								Made with
-								<span style="color: red;">&hearts;</span>
-								<span>by</span>
-								<a href="http://sumninjacode.io"> Sumedha Pramod</a>
-								<span>&#124;</span>
-								<a href='mailto:issues@uppukhara.com'>Issues</a>
+                Made with
+                <span style="color: red;">&hearts;</span>
+                <span>by</span>
+                <a href="http://sumninjacode.io"> Sumedha Pramod</a>
+                <span>&#124;</span>
+                <a href='mailto:issues@uppukhara.com'>Issues</a>
             </p>      
-					 </div>
-				 </div>
+           </div>
+         </div>
       </div>
     </footer>
 
@@ -297,27 +297,27 @@
       $('.single-wide').width(colWidth);
       $('.double-wide').width(colWidth * 2);
       if( iDivisor == 2 ) {
-				 $('.double-wide').width(colWidth * 2);
-				 $('.four-wide').width(colWidth * 2);
+         $('.double-wide').width(colWidth * 2);
+         $('.four-wide').width(colWidth * 2);
       } else if( iDivisor == 3 ) {
-				 $('.double-wide').width(colWidth * 3);
-				 $('.four-wide').width(colWidth * 3);
+         $('.double-wide').width(colWidth * 3);
+         $('.four-wide').width(colWidth * 3);
       } else {
-				 $('.double-wide').width(colWidth * 3);
-				 $('.four-wide').width(colWidth * 4);
+         $('.double-wide').width(colWidth * 3);
+         $('.four-wide').width(colWidth * 4);
       }
-					 // console.log(colWidth);
-					 
-					 // initialize Isotope
-					 $container.isotope({
-								// options...
-								resizable: false, // disable normal resizing
-								// set columnWidth to a percentage of container width
-								masonry: { columnWidth: colWidth }
+           // console.log(colWidth);
+           
+           // initialize Isotope
+           $container.isotope({
+                // options...
+                resizable: false, // disable normal resizing
+                // set columnWidth to a percentage of container width
+                masonry: { columnWidth: colWidth }
             });
-					 
-					 // update columnWidth on window resize
-					 $(window).smartresize(function(){
+           
+           // update columnWidth on window resize
+           $(window).smartresize(function(){
             var iWW = $(window).width();
             var iDivisor = 3;
             if (iWW <= 768) { iDivisor = 2; }
@@ -328,20 +328,20 @@
             $('.single-wide').width(colWidth);
             $('.double-wide').width(colWidth * 2);
             if( iDivisor == 2 ) {
-								$('.double-wide').width(colWidth * 2);
-								$('.four-wide').width(colWidth * 2);
+                $('.double-wide').width(colWidth * 2);
+                $('.four-wide').width(colWidth * 2);
             } else if( iDivisor == 3 ) {
-								$('.double-wide').width(colWidth * 3);
-								$('.four-wide').width(colWidth * 3);
+                $('.double-wide').width(colWidth * 3);
+                $('.four-wide').width(colWidth * 3);
             } else {
-								$('.double-wide').width(colWidth * 3);
-								$('.four-wide').width(colWidth * 4);
+                $('.double-wide').width(colWidth * 3);
+                $('.four-wide').width(colWidth * 4);
             }
-								// console.log(colWidth);
-								$container.isotope({
-											// update columnWidth to a percentage of container width
-											masonry: { columnWidth: colWidth }
-									});
+                // console.log(colWidth);
+                $container.isotope({
+                      // update columnWidth to a percentage of container width
+                      masonry: { columnWidth: colWidth }
+                  });
             });
   });
   </script>
